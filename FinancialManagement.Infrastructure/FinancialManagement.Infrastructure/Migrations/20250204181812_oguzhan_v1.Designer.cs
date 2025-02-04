@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FinancialManagement.Infrastructure.Migrations
 {
     [DbContext(typeof(FinancialManagementDbContext))]
-    [Migration("20250202152701_ali_v1")]
-    partial class ali_v1
+    [Migration("20250204181812_oguzhan_v1")]
+    partial class oguzhan_v1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

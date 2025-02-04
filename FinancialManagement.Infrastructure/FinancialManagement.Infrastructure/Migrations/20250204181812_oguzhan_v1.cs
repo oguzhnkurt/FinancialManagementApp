@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace FinancialManagement.Infrastructure.Migrations
 {
-    public partial class ali_v1 : Migration
+    public partial class oguzhan_v1 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
