@@ -1,10 +1,11 @@
 ﻿using AutoMapper;
 using FinancialManagement.Infrastructure.Models.UserModels;
+using FinancialManagement.Services.ServiceInterfaces.UserServiceInterfaces;
 
 namespace FinancialManagement.Services.Services.UserServices
 {
 
-    public class UserManagementService
+    public class UserManagementService : IUserManagementService
     {
 
         private readonly IMapper _mapper;
